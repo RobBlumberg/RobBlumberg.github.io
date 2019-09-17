@@ -23,13 +23,11 @@ Having defined our clusters, the next step was to determine the percentage of Ba
 
 <img src="images/barca_clusters_percentages_diff.png" width="1000"/>
 
-## Barcelona's top pass clusters
+## Barcelona's top and bottom pass clusters
 
 We can see, above, that the pass clusters that Barca used most often compared to their opponents are numbers 71, 76, 42, 78 and 62: 
 
 <img src="images/overrep.png" width="700"/>
-
-## Barcelona's bottom pass clusters
 
 On the other hand, the pass clusters that Barca used least often compared to their opponents are numbers 10, 74, 63 and 59: 
 
