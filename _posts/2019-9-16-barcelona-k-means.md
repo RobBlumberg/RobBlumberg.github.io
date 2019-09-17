@@ -17,7 +17,7 @@ The first step in acheiving the passing clusters is to calculate the actual cent
 
 Luckily, python's sci-kit learn library has a great k-means clustering class. First though, I applied a standard scaler to the 4 features (x-starting position, y-starting position, length, direction) so that all features are weighed equally when clustering. Then, all that needed to be done was to choose the number of clusters and feed the data into the algorithm. In the end, through mostly visual inspection (the commonly used elbow-method did not prove to be very useful), I landed on **81 clusters**. You can see the 81 different clusters below: 
 
-<img src="images/barca_clusters.PNG" width="1000"/>
+![](images/barca_clusters.png){ width=50% }
 
 Having defined our clusters, the next step was to determine the percentage of Barcelona's passes which were assigned to each cluster, as well as their opponents' percentages. The two sets could then be compared, and their differences would reveal which pass clusters Barcelona play more often than their opponents, and vice-versa. The results are shown in the plots below:
 
