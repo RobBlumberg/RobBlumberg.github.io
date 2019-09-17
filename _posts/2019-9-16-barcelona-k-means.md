@@ -27,13 +27,13 @@ Having defined our clusters, the next step was to determine the percentage of Ba
 
 We can see, above, that the pass clusters that Barca used most often compared to their opponents are numbers 71, 76, 42, 78 and 62: 
 
-<img src="images/overrep.png" width="400"/>
+<img src="images/overrep.png" width="700"/>
 
 ## Barcelona's bottom pass clusters
 
 On the other hand, the pass clusters that Barca used least often compared to their opponents are numbers 10, 74, 63 and 59: 
 
-<img src="images/underrep.png" width="400"/>
+<img src="images/underrep.png" width="550"/>
 
 The result above will be unsurprising to most: Barca play far less long balls than their opponents. Interestingly, Barca are also under-represented in pass cluster #59, where we see that they played few passes up the left wing. This is likely a consequence of the messi-effect, where Barca would have been much more likely to play passes on the right wing instead (partly evidenced by their over-representation in pass cluster #42 seen earlier).
 
