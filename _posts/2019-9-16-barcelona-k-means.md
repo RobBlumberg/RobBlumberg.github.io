@@ -5,7 +5,7 @@ title: Clustering Barcelona's passes using k-means
 
 The k-means clustering algorithm is one of the most frequently used machine learning algorithms. It's purpose is to partition a set of unlabelled data points, which posses quantitative features, into k distinct groups. The algorithm achieves this grouping through an iterative process where k 'centroids' are calculated based on the data at hand. The k centroids define the k groups, and each data point is assigned to the group with the centroid it is most similar to. 
 
-Among the many applications of this clustering algorithm, k-means can be used to cluster a soccer team's passes. In fact, using k-means, passes can be separated into groups based on their stating location, length and direction. This technique has been done many times in the past, but here, I apply it to Barcelona's passing data, provided by Statsbomb. 
+Among the many applications of this clustering algorithm, k-means can be used to cluster a soccer team's passes. In fact, using k-means, passes can be separated into groups based on their starting location, length and direction. This technique has been done many times in the past, but here, I apply it to Barcelona's passing data, provided by Statsbomb. 
 
 ## Passing analysis with k-means: methodology 
 
