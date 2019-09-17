@@ -7,7 +7,7 @@ The k-means clustering algorithm is one of the most frequently used machine lear
 
 Among the many applications of this clustering algorithm, k-means can be used to cluster a soccer team's passes. In fact, using k-means, passes can be separated into groups based on their stating location, length and direction. This technique has been done many times in the past, but here, I apply it to Barcelona's passing data, provided by Statsbomb. 
 
-## What k-means 
+## Passing analysis with k-means: methodology 
 
 The ultimate goal of this exercise is to determine what kind of passes Barcelona play more often (and less often) than their opponents. We can all agree that the peak of Barcelona's passing dominance came during the Pep-era, and so in this analysis, I'll use data from the 2011/12 season (Pep's last season in charge). 
 
@@ -27,13 +27,13 @@ Having defined our clusters, the next step was to determine the percentage of Ba
 
 We can see, above, that the pass clusters that Barca used most often compared to their opponents are numbers 71, 76, 42, 78 and 62: 
 
-**INSERT IMAGE OF THOSE CLUSTERS** (Say something about them)
+<img src="images/overrep.png" width="400"/>
 
 ## Barcelona's bottom pass clusters
 
 On the other hand, the pass clusters that Barca used least often compared to their opponents are numbers 10, 74, 63 and 59: 
 
-**INSERT IMAGE OF THOSE CLUSTERS** (Say something about them)
+<img src="images/underrep.png" width="400"/>
 
 The result above will be unsurprising to most: Barca play far less long balls than their opponents. Interestingly, Barca are also under-represented in pass cluster #59, where we see that they played few passes up the left wing. This is likely a consequence of the messi-effect, where Barca would have been much more likely to play passes on the right wing instead (partly evidenced by their over-representation in pass cluster #42 seen earlier).
 
