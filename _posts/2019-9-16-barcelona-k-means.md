@@ -39,4 +39,4 @@ The result above will be unsurprising to most: Barca play far less long balls th
 
 ## Conclusion
 
-We saw in this post how to cluster a soccer team's passes using the k-means algorithm, and that this told us useful information about how Barcelona play. Ideally, it would have been nice to have data for all La Liga games so that the clusters were not calculated by heavily weighing Barca passes. Nevertheless, it is reassuring that we obtained results which were intuitive, but also insightful. 
+We saw in this post how to cluster a soccer team's passes using the k-means algorithm, and that this told us useful information about how Barcelona play. Ideally, it would have been nice to have data for all La Liga games so that the clusters were not calculated by heavily weighing Barca passes. Additionally, this would allow us to compare Barca's pass clusters against those of every single team individually, rather than against all their opponents lumped together. Nevertheless, it is reassuring that we obtained results which were intuitive, and this exercise has certainly shown how powerful this method can be in quantifying a team's playing style. 
