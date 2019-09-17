@@ -11,7 +11,7 @@ Among the many applications of this clustering algorithm, k-means can be used to
 
 The ultimate goal of this exercise is to determine what kind of passes Barcelona play more often (and less often) than their opponents. We can all agree that the peak of Barcelona's passing dominance came during the Pep-era, and so in this analysis, I'll use data from the 2011/12 season (Pep's last season in charge). 
 
-The first step in acheiving the passing clusters is to calculate the actual centroids themselves. The centroids are calculated by feeding through all of Barcelona's passes, as well as their opponent's passes, into the k-means algorithm. 
+The first step in acheiving the passing clusters is to calculate the actual centroids themselves. The centroids are calculated by feeding through all of Barcelona's passes, as well as their opponents' passes, into the k-means algorithm. 
 
 **Important note:** I realize that this technique will mean that Barcelona's passes will weigh more heavily that those of their opponents in the calculation of the centroids, but given that Statsbomb only has Barcelona event-level data available for the 2011/12 La Liga season, I'll have to live with this limitation.
 
