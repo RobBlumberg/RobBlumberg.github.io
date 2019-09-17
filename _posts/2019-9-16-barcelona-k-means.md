@@ -17,6 +17,8 @@ Luckily, python's sci-kit learn library has a great k-means clustering method. F
 
 <img src="images/barca_clusters.png" width="1000"/>
 
-Having defined our clusters, the next step was to determine the percentage of Barcelona's passes which were assigned to each cluster, as well as their opponents' percentages. The two sets could then be compared, and their differences would reveal which pass clusters Barcelona play more often than their opponents, and vice-versa. 
+Having defined our clusters, the next step was to determine the percentage of Barcelona's passes which were assigned to each cluster, as well as their opponents' percentages. The two sets could then be compared, and their differences would reveal which pass clusters Barcelona play more often than their opponents, and vice-versa. The results are shown in the plots below:
+
+<img src="images/barca_clusters_percentages.png" width="800"/>
 
 
