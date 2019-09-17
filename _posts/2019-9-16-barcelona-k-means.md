@@ -29,10 +29,14 @@ We can see, above, that the pass clusters that Barca used most often compared to
 
 <img src="images/overrep.png" width="700"/>
 
+The first thing we notice is that Barcelona have a tendency to play back towards the middle of the pitch when in forward positions, and when on the right wing. Their most over-represented pass cluster, #71, indicates that they like to play towards the left side of the pitch when starting in the middle third.
+
 On the other hand, the pass clusters that Barca used least often compared to their opponents are numbers 10, 74, 63 and 59: 
 
 <img src="images/underrep.png" width="550"/>
 
 The result above will be unsurprising to most: Barca play far less long balls than their opponents. Interestingly, Barca are also under-represented in pass cluster #59, where we see that they played few passes up the left wing. This is likely a consequence of the messi-effect, where Barca would have been much more likely to play passes on the right wing instead (partly evidenced by their over-representation in pass cluster #42 seen earlier).
 
+## Conclusion
 
+We saw in this post how to cluster a soccer team's passes using the k-means algorithm, and that this told us useful information about how Barcelona play. Ideally, it would have been nice to have data for all La Liga games so that the clusters were not calculated by heavily weighing Barca passes. Nevertheless, it is reassuring that we obtained results which were intuitive, but also insightful. 
