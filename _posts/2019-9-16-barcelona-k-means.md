@@ -15,7 +15,7 @@ The first step in acheiving the passing clusters is to calculate the actual cent
 
 **Important note:** I realize that this technique will mean that Barcelona's passes will weigh more heavily that those of their opponents in the calculation of the centroids, but given that Statsbomb only has Barcelona event-level data available for the 2011/12 La Liga season, I'll have to live with this limitation.
 
-Luckily, python's sci-kit learn library has a great k-means clustering class. First though, I applied a standard scaler to the 4 features (x-starting position, y-starting position, length, direction) so that all features are weighed equally when clustering. Then, all that needed to be done was to choose the number of clusters and feed the data into the algorithm. In the end, through mostly visual inspection (the commonly used elbow-method did not prove to be very useful), I landed on **81 clusters**. You can see the 81 different clusters below: 
+Luckily, python's sci-kit learn library has a great k-means clustering class. First though, I applied a standard scaler to the 4 features (x-starting position, y-starting position, length, direction) so that all features were weighed equally when clustering. Then, all that needed to be done was to choose the number of clusters and feed the data into the algorithm. In the end, through mostly visual inspection (the commonly used elbow-method did not prove to be very useful), I landed on **81 clusters**. You can see the 81 different clusters below: 
 
 ![_config.yml]({{ site.baseurl }}/images/barca_clusters.png)
 
