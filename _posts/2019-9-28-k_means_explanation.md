@@ -25,6 +25,6 @@ Once all the data points have been assigned to a group, each group's centroid is
 
 Next, since we've redefined the centroids, there may be points which were initially assigned to one group, but are now in fact closer to a centroid in another group. So we run a second iteration of the algorithm, just like the first time, except now our starting centroids are different. Again, we assign each data point to the centroid it is closest to, and then redefine the centroids by taking the mean of the points in each group. If needed, we keep repeating these steps. We know when to stop repeating the algorithm once there are no points which need to be reassigned to a different group after redefining the centroids. And finally we're done! We have separated our dataset into k groups!
 
-##Conclusion
+## Conclusion
 
 In this post, we have seen how k-means can be useful in separating a dataset into different groups based on the similarities between points. We spoke about separating fish into groups based on their shapes and sizes, but k-means can be used to find groupings in any dataset where the points have numerical features. One last important aspect to mention is that throughout this article, we've focused on grouping data points based on two numerical features. This made the algorithm easier to visualize, since we were able to plot the points on a 2D-graph. However, in practice, the algorithm could be generalized to group data points based on any number of numerical features.
