@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-### About
+### Bio
 
 I am a master's student at UBC studying data science, with a particular interest in applying machine learning and statistical models to soccer data. 
 
