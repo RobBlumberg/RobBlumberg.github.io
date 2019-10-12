@@ -9,7 +9,7 @@ Among the many applications of this clustering algorithm, k-means can be used to
 
 ## Passing analysis with k-means: methodology 
 
-The ultimate goal of this exercise is to determine what kind of passes Barcelona play more often (and less often) than their opponents. We can all agree that the peak of Barcelona's passing dominance came during the Pep-era, and so in this analysis, I'll use data from the 2011/12 season (Pep's last season in charge). 
+The ultimate goal of this exercise is to determine what kind of passes Barcelona play more often (and less often) than their opponents. We can all agree that the peak of Barcelona's passing dominance came during the Pep-era, and so in this analysis, I'll use data from the 2009/10 season.
 
 The first step in acheiving the passing clusters is to calculate the actual centroids themselves. The centroids are calculated by feeding through all of Barcelona's passes, as well as their opponents' passes, into the k-means algorithm. 
 
