@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### About
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I am a master's student at UBC studying data science, with a particular interest in applying machine learning and statistical models to soccer data. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[robertblumberg97@gmail.com](mailto:robertblumberg97@gmail.com)
