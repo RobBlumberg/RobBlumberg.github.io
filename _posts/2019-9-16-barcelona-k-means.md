@@ -33,7 +33,7 @@ On the other hand, the pass clusters that Barca used least often compared to the
 
 ![_config.yml]({{ site.baseurl }}/images/underrep.png)
 
-So we've now determine which pass clusters Barca used most often, and least often, compared to their opponent's during the 2009/10 La Liga Season. In particular, the least-used pass clusters tell us something that we alraedy know: Barca play far less long balls than their opponents. 
+So we've now determined which pass clusters Barca used most often, and least often, compared to their opponents during the 2009/10 La Liga Season. In particular, the least-used pass clusters tell us something that we already know: Barca play far less long balls than their opponents. 
 
 ## Extending this analysis
 
@@ -41,4 +41,4 @@ The real interesting insights come when we extend this clustering analysis. We c
 
 # Conclusion
 
-We saw in this post how to cluster a soccer team's passes using the k-means algorithm, and that this told us useful information about how Barcelona play. We also saw how this analysis could be extended to yield more interesting insights. Ideally, it would have been nice to have data for all La Liga games so that the clusters could be calculated by equally weighing all teams' passes. Additionally, this would allow us to compare Barca's pass cluster percentages against a distribution of all teams, rather than against all of their opponents lumped together. Nevertheless, this exercise has certainly shown how powerful this method can be in quantifying a team's playing style. 
+We saw in this post how to cluster a soccer team's passes using the k-means algorithm, and that this can tell us useful information about how Barcelona play. We also saw how this analysis could be extended to yield more interesting insights. Ideally, it would have been nice to have data for all La Liga games so that the clusters could be calculated by equally weighing all teams' passes. Additionally, this would allow us to compare Barca's pass cluster percentages against a distribution of all teams, rather than against all of their opponents lumped together. Nevertheless, this exercise has certainly shown how powerful this method can be in quantifying a team's playing style. 
