@@ -17,21 +17,21 @@ The first step in achieving the passing clusters is to calculate the actual cent
 
 Luckily, python's sci-kit learn library has a great k-means clustering class. First though, it is neccesary to apply a standard scaler to the 4 passing features (x-starting position, y-starting position, length, direction) so that they all weigh equally when clustering. The next step is choosing the number of clusters and feed the data into the algorithm. In the end, through mostly visual inspection (the commonly used elbow-method did not prove to be very useful), I landed on **81 clusters**. You can see the 81 different clusters below: 
 
-![_config.yml]({{ site.baseurl }}/images/barca_clusters.png)
+![_config.yml]({{ site.baseurl }}/images/k_means/barca_clusters.png)
 
 Having now defined our clusters, the next step is to determine the percentage of Barcelona's passes which were assigned to each cluster, as well as their opponents' percentages. These two sets can then be compared, and their differences would reveal which pass clusters Barcelona play more often than their opponents, and vice-versa. The results are shown in the plots below:
 
-![_config.yml]({{ site.baseurl }}/images/barca_clusters_percentages_diff.png)
+![_config.yml]({{ site.baseurl }}/images/k_means/barca_clusters_percentages_diff.png)
 
 ## Barcelona's top and bottom pass clusters
 
 We can see, above, that the pass clusters that Barca used most often compared to their opponents are numbers 71, 76, 42, 78 and 62: 
 
-![_config.yml]({{ site.baseurl }}/images/overrep.png)
+![_config.yml]({{ site.baseurl }}/images/k_means/overrep.png)
 
 On the other hand, the pass clusters that Barca used least often compared to their opponents are numbers 10, 74, 63 and 59: 
 
-![_config.yml]({{ site.baseurl }}/images/underrep.png)
+![_config.yml]({{ site.baseurl }}/images/k_means/underrep.png)
 
 So we've now determined which pass clusters Barca used most often, and least often, compared to their opponents during the 2009/10 La Liga Season. In particular, the least-used pass clusters tell us something that we already know: Barca play far less long balls than their opponents. 
 
