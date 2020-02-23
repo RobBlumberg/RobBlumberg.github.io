@@ -2,6 +2,7 @@
 layout: post
 title: Clustering Barcelona's passes using k-means
 ---
+See [this](https://github.com/RobBlumberg/k_means_pass_clustering) GitHub repository for all code produced for this project. 
 
 The k-means clustering algorithm is one of the most frequently used machine learning algorithms. Its purpose is to partition a set of unlabelled data points, which possess quantitative features, into k distinct groups. The algorithm achieves these groupings through an iterative process where k 'centroids' are calculated based on the data at hand. The k centroids define the k groups, and each data point is assigned to the group with the centroid it is most similar to. 
 
