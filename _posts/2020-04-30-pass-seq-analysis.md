@@ -10,7 +10,7 @@ In my last post, I wrote about an expected goals (xG) model I created using [Sta
 
 ## High level overview of the analysis
 
-Before jumping into the analysis, let me frame the actual problem. As we know, the ultimate goal in soccer is to, well, score a goal. To accomplish this, teams attempt to progress the ball into their opponent's end in order to take a shot. It sounds simple enough, but there are practically an infinite number of pass sequences which could yield a shot. So what makes one pass sequence better than another? Well, the basic behind this analysis is that pass sequences that lead to shots which have a high probability of resulting in a goal are better than those which either don't tend to yield shots, or those which yield poor quality shots. In other words, pass sequences which produce shots with high xG values are better than sequences which produce low xG valued shots.
+Before jumping into the analysis, let me frame the actual problem. As we know, the ultimate goal in soccer is to, well, score a goal. To accomplish this, teams attempt to progress the ball into their opponent's end in order to take a shot. It sounds simple enough, but there are practically an infinite number of pass sequences which could yield a shot. So what makes one pass sequence better than another? The basic idea behind this analysis is that pass sequences that lead to shots which have a high probability of resulting in a goal are better than those which either don't tend to yield shots, or those which yield poor quality shots. In other words, pass sequences which produce shots with high xG values are better than sequences which produce low xG valued shots.
 
 ## Extracting the pass sequences
 
