@@ -22,7 +22,7 @@ In all, I extracted over 150 000 such sequences from Barcelona matches between t
 
 ## Pass clustering
 
-So I had pass sequences with associated xG values. Each sequence was unique in the specific start and end locations of its passes. However, the goal of this analysis was to determine which sequences, in general, lead to high quality chances, not to quantify the quality of each specific pass combinations. This distinction is best understood with an example. Consider the four pass groups shown below. Each pass sequence would have its own xG value. However, the goal was not to determine which of the two blue pass sequences is the best, but rather, if pass sequences similar to those in blue tend to produce better chances than those in red.
+So I had pass sequences with associated xG values. Each sequence was unique in the specific start and end locations of its passes. However, the goal of this analysis was to determine which sequences, in general, lead to high quality chances, not to quantify the quality of each specific pass combination. This distinction is best understood with an example. Consider the four pass groups shown below. Each pass sequence would have its own xG value. However, the goal was not to determine which of the two blue pass sequences is the best, but rather, if pass sequences similar to those in blue tend to produce better chances than those in red.
 
 ![_config.yml]({{ site.baseurl }}/images/pass_seq/pass-dist-1.png)
 
