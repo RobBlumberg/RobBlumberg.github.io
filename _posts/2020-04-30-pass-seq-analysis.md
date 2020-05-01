@@ -40,7 +40,7 @@ A common and powerful method for sequence analysis is the use of a recurrent neu
 
 ### Results
 
-With the LSTM trained, I fed the model with the portion of the data it hadn't seen. Each unseen sequence was given a predicted xG value by the model. Below are the pass group sequences with the highest predicted xG scores. The numbers attached to each arrow represent the order in which the passes groups in each sequence.
+With the LSTM trained, I fed the model with the portion of the data it hadn't seen. Each unseen sequence was given a predicted xG value by the model. Below are the pass group sequences with the highest predicted xG scores. The numbers attached to each arrow represent the order of the pass groups in each sequence.
 
 ![_config.yml]({{ site.baseurl }}/images/pass_seq/lstm-highest-xg.png)
 
