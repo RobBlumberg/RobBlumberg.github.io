@@ -30,7 +30,7 @@ In order to do this, I grouped passes together based on their similarity using t
 
 ![_config.yml]({{ site.baseurl }}/images/pass_seq/pass-clusters-example.png)
 
-What the groups above allowed me to do is replace each pass by the average pass of its group. Thus, instead of having unique sequences, all with slightly different passes, each sequence could now be represented as a sequence of 'pass groups'. Going back to the example shown earlier, the sequences in blue would be replaced by the thick blue sequence below, and similar for the red passes. Our sequence data would end up consisting of two examples of the thick blue sequence, with xG values given by the original sequences, and two examples of the red, again with xG values given by the original sequences. 
+What the groups above allowed me to do is replace each pass by the average pass of its group. Thus, instead of having unique sequences, all with slightly different passes, each sequence could now be represented as a sequence of 'pass groups'. Going back to the example shown earlier, the sequences in blue would be replaced by the thick blue sequence below, and similar for the red passes. The sequence data would end up consisting of two examples of the thick blue sequence, with xG values given by the original sequences, and two examples of the red, again with xG values given by the original sequences. 
 
 ![_config.yml]({{ site.baseurl }}/images/pass_seq/pass-dist-2.png)
 
