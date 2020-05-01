@@ -48,7 +48,7 @@ An interesting insight arises when we look at the 9 highest valued pass group se
 
 ## Applications of this pass sequence analysis
 
-This pass sequence analysis can be used by coaches to evaluate their own team's attacking play, as well as opposition teams. For example, this analysis could be applied separately to each team in a given league. Because teams vary in style and in their players' qualities, pass sequence scores may vary from team to team. Thus, depending on the opposition they will face, a coach may want to place extra emphasis on shutting down particular passing avenues. On the other hand, a team may be going through a dry run where they are stuggling to score goals. By looking at the passing sequences they play most often, they made find that they are using combinations which result in low quality chances. In such situations, coaches may want to instruct their players to pursue different patterns of play.
+This pass sequence analysis can be used by coaches to evaluate their own team's attacking play, as well as opposition teams. For example, this analysis could be applied separately to each team in a given league. Because teams vary in style and in their players' qualities, pass sequence scores may vary from team to team. Thus, depending on the opposition they will face, a coach may want to place extra emphasis on shutting down particular passing avenues. On the other hand, a team may be going through a dry run where they are stuggling to score goals. By looking at the passing sequences they play most often, they may find that they are using combinations which result in low quality chances. In such situations, coaches may want to instruct their players to use different patterns of play.
 
 ## Conclusion
 
